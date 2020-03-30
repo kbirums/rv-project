@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>abonēšanas widget 2</title>
+	<style>
+* {
+	font-family: Roboto,sans-serif;
+	text-align: center;
+	box-sizing: border-box;
+}
+#abonetpogas{
+	width:100%;
+	display: block;
+	    float: left;
+	    overflow-x: scroll;
+	    white-space: nowrap;
+	}
+.elements {
+	background:white;
+	display: inline-block;
+	position: relative;
+	min-width: 170px;
+	width: 24%;
+	max-width: 220px;
+	border: 1px solid #dedede;
+	margin: 2px;
+	}
+	#vaks {
+	    margin: 0 auto;
+	    width: 90%;
+	    height: auto;
+			padding: 2px;
+	}
+	#cena {
+	    font-size: 12px;
+	}
+	#zimols {
+	    font-size: 18px;
+	    padding-bottom: 3px;
+	}
+		.poga {
+	    bottom: 0;
+	    font-size: 14px;
+	    display: inline-block;
+	    width: 47%;
+	    margin: 6px 3px 3px 3px;
+	    border: 1px solid grey;
+	    text-transform: uppercase;
+	}
+	.poga:hover{
+		border: 1px solid #db111a;
+	}
+ a{
+	 padding: 4px;
+	 display: block;
+	 text-decoration: none;
+	 color: #2d2d2d;
+	}
+	a:hover{
+			 display: block;
+			 text-decoration: none;
+			 background:#db111a;
+			 color: white;
+	 }
+#atlaide {
+	z-index: 1;
+	    position: absolute;
+	    background: red;
+	    top: 0;
+	    color: white;
+	    border: 4px solid white;
+	    font-size: 26px;
+	    line-height: 18px;
+	    right: 0;
+	    font-weight: 600;
+	    border-radius: 50%;
+	    min-width: 80px;
+	}
+#virsraksts {
+		padding-left:15px;
+		font-size:21px;
+		font-weight:300;
+		border-bottom:2px solid grey;
+		margin-bottom:10px;
+		text-align: left;
+	}
+	span.money{
+		font-weight: 600;
+    color: #f00;
+    font-size: 30px;
+    text-transform: uppercase;
+	}
+	span.paliecmajas{
+		font-weight: 600;
+		color: #f00;
+		font-size: 22px;
+		text-transform: uppercase;
+	}
+	@media only screen and (min-device-width: 320px)
+		and (max-device-width: 880px) {
+.elements {
+					width: 45%;
+			}
+			.poga {
+		width: 44%;
+	}
+	</style>
+</head>
+<body>
+	<div id="virsraksts">Abonē vai lasi žurnālus internetā! <span class="paliecmajas">#paliecmajas </span></div>
+<div id="abonetpogas">
+<div class="elements">
+	<div id=vaks><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/kasjauns_2020.png" alt="Kas Jauns" style="width:100%"/></div>
+	<div class="info">
+	<div id="zimols">Kas Jauns</div>
+	<div id="cena">Sākot no <span class="money">€1,39</span></div></div>
+	<div id=atlaide><p>-40%</p></div>
+<div class="poga"><a href="https://www.zurnali.lv/izdevumi/pirkt/index/sku/8/" target="_blank"">Pirkt</a></div><div class="poga"><a href="https://www.zurnali.lv/kas-jauns-8" target="_blank"">Abonēt</a></div></div>
+<div class="elements">
+<div id=vaks><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/rv_2020.png" alt="RīgasViļņi" style="width:100%"/></div>
+	<div class="info">
+	<div id="zimols">Rīgas Viļņi</div>
+	<div id="cena">Sākot no <span class="money">€1,30</span></div></div>
+	<div id=atlaide><p>-40%</p></div>
+	<div class="poga"><a href="https://www.zurnali.lv/izdevumi/pirkt/index/sku/3/" target="_blank"">Pirkt</a></div><div class="poga"><a href="https://www.zurnali.lv/rigas-vilni-3" target="_blank"">Abonēt</a></div></div>
+<div class="elements">
+<div id=vaks><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/lp_2020.png" alt="Laimīgā programma" style="width:100%"/></div>
+<div class="info">
+<div id="zimols">Laimīgā programma</div>
+	<div id="cena">Sākot no <span class="money">€0,89</span></div></div>
+	<div id=atlaide><p>-40%</p></div>
+<div class="poga"><a href="https://www.zurnali.lv/izdevumi/pirkt/index/sku/4/" target="_blank"">Pirkt</a></div><div class="poga"><a href="https://www.zurnali.lv/laimiga-programma-4" target="_blank"">Abonēt</a></div></div>
+<div class="elements">
+<div id=vaks><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/tva_2020.png" alt="100 labi padomi" style="width:100%"/></div>
+<div class="info">
+<div id="zimols">Tautas Veselības avīze</div>
+	<div id="cena">Sākot no <span class="money">€0,69</span></div></div>
+	<div id=atlaide><p>-40%</p></div>
+	<div class="poga"><a href="https://www.zurnali.lv/tautas-veselibas-avize--69" target="_blank"">Pirkt</a></div><div class="poga"><a href="https://www.zurnali.lv/izdevumi/pirkt/index/sku/69/" target="_blank"">Abonēt</a></div></div>
+</div></body>
+</html>
