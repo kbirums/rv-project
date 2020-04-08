@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Abonēšana</title>
+	<title>www.zurnali.lv abonēšana</title>
 	<style>
 * {
 	font-family: Roboto,sans-serif;
@@ -35,36 +34,38 @@
 			padding: 2px;
 	}
 	#cena {
+	    display: grid;
 	    font-size: 12px;
 	}
 	#zimols {
-	    font-size: 18px;
-	    padding-bottom: 3px;
+	    font-size: 20px;
+	    padding-bottom: 2px;
 	}
 	.poga {
 	    bottom: 0;
-	    font-size: 14px;
 	    display: inline-block;
-	    font-weight: 600;
-	    width: 75%;
-	    margin: 6px 3px 3px 3px;
-	    border: 1px solid grey;
-	    text-transform: uppercase;
+	    font-weight: 500;
+	    width: 70%;
+	    margin: 7px 3px 3px 3px;
+	    border: 1px solid #1b1b1b;
 	}
- a{
-	 padding: 4px;
-	 display: block;
-	 text-decoration: none;
-	 color: #2d2d2d;
+	.poga:hover{
+			border: 1px solid #db111a;
+	}
+	a {
+	    padding: 4px;
+	    display: block;
+	    text-decoration: none;
+	    color: #2d2d2d;
 	}
 	a:hover{
 			 display: block;
 			 text-decoration: none;
 			 background:#db111a;
 			 color: white;
-			 font-weight: 600;
 	 }
 #atlaide {
+	display: none;
 	z-index: 1;
 	    position: absolute;
 	    background: #db111a;
@@ -78,13 +79,13 @@
 	    border-radius: 50%;
 	    min-width: 80px;
 	}
-#virsraksts {
-		padding-left:15px;
-		font-size:21px;
-		font-weight:300;
- 		border-bottom: 2px solid #ffd602;
-		margin-bottom:10px;
-		text-align: left;
+	#virsraksts {
+	    padding-left: 15px;
+	    font-size: 21px;
+	    font-weight: 300;
+	    border-bottom: 1px solid #ffd601;
+	    margin-bottom: 10px;
+	    text-align: left;
 	}
 	span.money{
 		font-weight: 600;
@@ -109,37 +110,33 @@
 	</style>
 </head>
 <body>
-	<div id="virsraksts">Abonē vai lasi žurnālus internetā! <span class="paliecmajas">#paliecmajas </span></div>
+	<div id="virsraksts">Abonē un saņem žurnālu savā pastkastītē!<span class="paliecmajas">#paliecmājās </span></div>
 <div id="abonetpogas">
 <div class="elements">
 	<div id="vaks"><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/kasjauns_2020.png" alt="Kas Jauns" style="width:100%"></div>
 	<div class="info">
 	<div id="zimols">Kas Jauns</div>
-	<div id="cena">Sākot no <span class="money">€1,30</span></div></div>
+	<div id="cena"><span class="money">€4,49</span>Cena viena mēneša abonementam!</div></div>
 	<div id="atlaide"><p>-40%</p></div>
-<div class="poga"><a href="https://www.zurnali.lv/kas-jauns-8?utm_source=jauns.lv&amp;utm_medium=cpc&amp;utm_campaign=paliecmajas&amp;utm_content=widget_kj" target="_blank" "="">Uzzināt vairāk</a></div></div>
+<div class="poga"><a href="https://www.zurnali.lv/kas-jauns-8?utm_source=jauns.lv&amp;utm_medium=cpc&amp;utm_campaign=paliecmajas&amp;utm_content=widget_kj" target="_blank" "="">Pievienot grozam!</a></div></div>
 <div class="elements">
-<div id="vaks"><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/rv_2020.png" alt="RīgasViļņi" style="width:100%"></div>
+<div id="vaks"><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/katn_2020.png" alt="RīgasViļņi" style="width:100%"></div>
 	<div class="info">
-	<div id="zimols">Rīgas Viļņi</div>
-	<div id="cena">Sākot no <span class="money">€1,39</span></div></div>
-	<div id="atlaide"><p>-40%</p></div>
-	<div class="poga"><a href="https://www.zurnali.lv/rigas-vilni-3?utm_source=jauns.lv&amp;utm_medium=cpc&amp;utm_campaign=paliecmajas&amp;utm_content=widget_rv" target="_blank" "="">Uzzināt vairāk</a></div></div>
+	<div id="zimols">Ko Ārsti Tev Nestāsta</div>
+	<div id="cena"><span class="money">€2,75</span>Cena viena mēneša abonementam!</div></div>
+	<div class="poga"><a href="https://www.zurnali.lv/ko-arsti-tev-nestasta-54?utm_source=jauns.lv&amp;utm_medium=cpc&amp;utm_campaign=paliecmajas&amp;utm_content=widget_katn" target="_blank" "="">Pievienot grozam!</a></div></div>
 <div class="elements">
-<div id="vaks"><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/lp_2020.png" alt="Laimīgā Programma" style="width:100%"></div>
+<div id="vaks"><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/100lp_2020.png" alt="Laimīgā Programma" style="width:100%"></div>
 <div class="info">
-<div id="zimols">Laimīgā Programma</div>
-	<div id="cena">Sākot no <span class="money">€0,69</span></div></div>
-	<div id="atlaide"><p>-40%</p></div>
-<div class="poga"><a href="https://www.zurnali.lv/laimiga-programma-4?utm_source=jauns.lv&amp;utm_medium=cpc&amp;utm_campaign=paliecmajas&amp;utm_content=widget_lp" target="_blank" "="">Uzzināt vairāk</a></div></div>
+<div id="zimols">100 labi padomi</div>
+	<div id="cena"><span class="money">€1,50</span>Cena viena mēneša abonementam!</div></div>
+<div class="poga"><a href="https://www.zurnali.lv/100-labi-padomi-29?utm_source=jauns.lv&amp;utm_medium=cpc&amp;utm_campaign=paliecmajas&amp;utm_content=widget_100lp" target="_blank" "="">Pievienot grozam!</a></div></div>
 <div class="elements">
-<div id="vaks"><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/kja_2020.png" alt="100 labi padomi" style="width:100%"></div>
+<div id="vaks"><img src="https://www.rigasvilni.lv/lv/assets/images/zurnali_vaki/pdz_2020.png" alt="100 labi padomi" style="width:100%"></div>
 <div class="info">
-<div id="zimols">Kas Jauns Avīze</div>
-	<div id="cena">Sākot no <span class="money">€0,89</span></div></div>
-	<div id="atlaide"><p>-40%</p></div>
-	<div class="poga"><a href="https://www.zurnali.lv/kas-jauns-avize-49?utm_source=jauns.lv&amp;utm_medium=cpc&amp;utm_campaign=paliecmajas&amp;utm_content=widget_kja" target="_blank" "="">Uzzināt vairāk</a></div></div>
+<div id="zimols">Patiesā Dzīve</div>
+	<div id="cena"><span class="money">€2,60</span>Cena viena mēneša abonementam!</div></div>
+	<div class="poga"><a href="https://www.zurnali.lv/patiesa-dzive-10?utm_source=jauns.lv&amp;utm_medium=cpc&amp;utm_campaign=paliecmajas&amp;utm_content=widget_pdz" target="_blank" "="">Pievienot grozam!</a></div></div>
 </div>
-
 </body>
 </html>
